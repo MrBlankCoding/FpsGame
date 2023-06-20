@@ -781,3 +781,15 @@ Received Import Request.
   path: Assets/All The sene stuff/Models/Cargo/Cargo1.png
   artifactKey: Guid(dab6ab242a7b9814f91f217f811aea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/All The sene stuff/Models/Cargo/Cargo1.png using Guid(dab6ab242a7b9814f91f217f811aea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c89bda11c77b30ee0c09fbd0707403') in 0.102708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 532.497161 seconds.
+  path: Assets/All The sene stuff/Models/Car/Car0.png
+  artifactKey: Guid(59cf96c72af4b6d468810fc710ee5468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All The sene stuff/Models/Car/Car0.png using Guid(59cf96c72af4b6d468810fc710ee5468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d6cb87e934f4b05d014b20ce9d1cfe') in 0.022723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/All The sene stuff/Models/Car/Car1.png
+  artifactKey: Guid(f596580299bce61448f22d79fde179b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/All The sene stuff/Models/Car/Car1.png using Guid(f596580299bce61448f22d79fde179b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554eb44123a49f09580aa4d14a8004b4') in 0.013500 seconds 
