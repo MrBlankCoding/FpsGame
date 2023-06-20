@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-   
 
 public class FirstPersonController : MonoBehaviour
 {
@@ -34,6 +33,9 @@ public class FirstPersonController : MonoBehaviour
     bool isSprintCooldown = false;
     float sprintCooldownReset;
  
+  
+    bool canJump = true;
+    public float jumpStrength = 10;
 
     private void Awake()
     {
@@ -132,9 +134,21 @@ public class FirstPersonController : MonoBehaviour
 
                 rb.AddForce(velocityChange, ForceMode.VelocityChange);
             }
+
+            if(Input.GetButton("Jump") && canJump)
+            {
+                rb.AddForce(Vector3.up * jumpStrength, ForceMode.Impulse);
+                canJump = false;
+              
+            }
         }
 
     
     }
 
+
+    public void allowJump()
+    {
+       canJump = true;
+    }
 }
