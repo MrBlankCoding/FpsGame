@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-   
 
 public class FirstPersonController : MonoBehaviour
 {
@@ -24,7 +23,7 @@ public class FirstPersonController : MonoBehaviour
     public bool enableSprint = true;
     public KeyCode sprintKey = KeyCode.LeftShift;
     public float sprintSpeed = 15f;
-    float sprintDuration = 5f;
+    float sprintDuration = 2f;
     float sprintCooldown = .5f;
     float sprintFOV = 80f;
     float sprintFOVStepTime = 10f;
@@ -33,7 +32,10 @@ public class FirstPersonController : MonoBehaviour
     float sprintRemaining;
     bool isSprintCooldown = false;
     float sprintCooldownReset;
- 
+
+
+    bool canJump = true;
+    public float jumpStrength = 10;
 
     private void Awake()
     {
@@ -48,7 +50,7 @@ public class FirstPersonController : MonoBehaviour
     private void Update()
     {
 
-        if(cameraCanMove)
+        if (cameraCanMove)
         {
             yaw = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * mouseSensitivity;
 
@@ -62,9 +64,9 @@ public class FirstPersonController : MonoBehaviour
         }
 
 
-        if(enableSprint)
+        if (enableSprint)
         {
-            if(isSprinting)
+            if (isSprinting)
             {
                 playerCamera.fieldOfView = Mathf.Lerp(playerCamera.fieldOfView, sprintFOV, sprintFOVStepTime * Time.deltaTime);
             }
@@ -73,7 +75,7 @@ public class FirstPersonController : MonoBehaviour
                 sprintRemaining = Mathf.Clamp(sprintRemaining += 1 * Time.deltaTime, 0, sprintDuration);
             }
 
-            if(isSprintCooldown)
+            if (isSprintCooldown)
             {
                 sprintCooldown -= 1 * Time.deltaTime;
                 if (sprintCooldown <= 0)
@@ -132,9 +134,21 @@ public class FirstPersonController : MonoBehaviour
 
                 rb.AddForce(velocityChange, ForceMode.VelocityChange);
             }
+
+            if (Input.GetButton("Jump") && canJump)
+            {
+                rb.AddForce(Vector3.up * jumpStrength, ForceMode.Impulse);
+                canJump = false;
+
+            }
         }
 
-    
+
     }
 
+
+    public void allowJump()
+    {
+        canJump = true;
+    }
 }
