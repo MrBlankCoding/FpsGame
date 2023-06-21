@@ -3307,3 +3307,197 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 425.311823 seconds.
+  path: Assets/zombie/Prefabs/Zombie2.prefab
+  artifactKey: Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/Prefabs/Zombie2.prefab using Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93aea02bc1e05185069743fade4fb82f') in 0.632466 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002036 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f8d3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/ethanhall/Desktop/IdTechUnity/FpsGame/FpsGame/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ethanhall/Desktop/IdTechUnity/FpsGame/FpsGame/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.671 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1673ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (1295ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (531ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (21.9 KB). Loaded Objects now: 3735.
+Memory consumption went from 140.2 MB to 140.2 MB.
+Total: 7.702625 ms (FindLiveObjects: 0.479833 ms CreateObjectMapping: 0.531666 ms MarkObjects: 6.621417 ms  DeleteObjects: 0.068333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.920443 seconds.
+  path: Assets/zombie/FBXs/Zombie2.FBX
+  artifactKey: Guid(6a28a82791e0b224081a04d42d031ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/FBXs/Zombie2.FBX using Guid(6a28a82791e0b224081a04d42d031ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91042835db76222055637c7621106c29') in 0.196370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/zombie/FBXs/Zombie3.FBX
+  artifactKey: Guid(a1b4b8144e2a4054199287da62cdd0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/FBXs/Zombie3.FBX using Guid(a1b4b8144e2a4054199287da62cdd0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05afa2aebdba8800ad01038f6125a63e') in 0.029689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.972598 seconds.
+  path: Assets/zombie/Textures/Zombie_ao.png
+  artifactKey: Guid(4ef3438267568cd40b87841c3e2c22c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/Textures/Zombie_ao.png using Guid(4ef3438267568cd40b87841c3e2c22c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef193343cb045d80e86bf07a8bab066') in 0.027733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/zombie/Textures/Zombie_nm.png
+  artifactKey: Guid(decb53c07686cc94b860f8e04d438d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/Textures/Zombie_nm.png using Guid(decb53c07686cc94b860f8e04d438d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b4bb090d6ebd6b76d12e5f82040da9') in 0.012853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/zombie/Textures/Zombie_metallic.tga
+  artifactKey: Guid(33de7c829c3a0224c8975ad93b61b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/Textures/Zombie_metallic.tga using Guid(33de7c829c3a0224c8975ad93b61b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a33252ebf6db82439b7eed7acca52e') in 0.563220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/zombie/Textures/zombie_emission.tga
+  artifactKey: Guid(d681134af7b3e50479d8d90effa0e1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/Textures/zombie_emission.tga using Guid(d681134af7b3e50479d8d90effa0e1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e0f37df6aeee89202d0ff53bbdbd8e') in 0.007275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.370468 seconds.
+  path: Assets/zombie/Materials/Zombie.mat
+  artifactKey: Guid(9fdb5531bdf185e448dd06dfa8192f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/Materials/Zombie.mat using Guid(9fdb5531bdf185e448dd06dfa8192f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e4e611e36cd7a026376a5c55f24e82') in 0.038720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.016181 seconds.
+  path: Assets/zombie/Animations/Zombie@Z_FallingBack.FBX
+  artifactKey: Guid(857241dcf6bb2ea45a0b3f46d78f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/Animations/Zombie@Z_FallingBack.FBX using Guid(857241dcf6bb2ea45a0b3f46d78f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d519dce6f5730b032161042abc318a') in 0.029281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/zombie/Animations/Zombie@Z_Walk1.FBX
+  artifactKey: Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/Animations/Zombie@Z_Walk1.FBX using Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae027d9be15c3e0a350db8c2458253c') in 0.171205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/zombie/Animations/Zombie@Z_Run.FBX
+  artifactKey: Guid(55edd2c9d257d3f4481dfd16015bf8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/Animations/Zombie@Z_Run.FBX using Guid(55edd2c9d257d3f4481dfd16015bf8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04deae67f26e740e8b7a4920c691e1f7') in 0.139450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/zombie/Animations/Zombie@Z_Idle.FBX
+  artifactKey: Guid(0d6373858f853604b960cf84b7d3dfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/Animations/Zombie@Z_Idle.FBX using Guid(0d6373858f853604b960cf84b7d3dfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f657ddd8b52baddf1e3912e6504f3b3b') in 0.208610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/zombie/Animations/Zombie@Z_Run_InPlace.FBX
+  artifactKey: Guid(79969b20b5ba62e499ee433a4dd38701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/Animations/Zombie@Z_Run_InPlace.FBX using Guid(79969b20b5ba62e499ee433a4dd38701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0a50ec8ef725938fbb984e8848236f') in 0.225935 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002141 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f8d3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/ethanhall/Desktop/IdTechUnity/FpsGame/FpsGame/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ethanhall/Desktop/IdTechUnity/FpsGame/FpsGame/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.741 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1743ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (1335ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (617ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (22.0 KB). Loaded Objects now: 3738.
+Memory consumption went from 144.5 MB to 144.5 MB.
+Total: 7.261250 ms (FindLiveObjects: 0.295334 ms CreateObjectMapping: 0.166459 ms MarkObjects: 6.733500 ms  DeleteObjects: 0.063917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
