@@ -1,0 +1,29 @@
+using UnityEngine;
+using UnityEngine.AI;
+
+public class ChaseAI : MonoBehaviour
+{
+    public Transform player;
+    public Transform zombie;
+    private NavMeshAgent agent;
+
+    private void Start()
+    {
+        agent = GetComponent<NavMeshAgent>();
+    }
+
+    private void Update()
+    {
+        if (player != null && zombie != null)
+        {
+            float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+            float distanceToZombie = Vector3.Distance(transform.position, zombie.position);
+            {
+                agent.SetDestination(player.position);
+            }
+            {
+                agent.SetDestination(zombie.position);
+            }
+        }
+    }
+}
