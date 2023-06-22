@@ -4,12 +4,13 @@ public class FirstPersonLook : MonoBehaviour
 {
     [SerializeField]
     Transform character;
-    public float sensitivity = 2;
+    public float sensitivity = 2f;
     public float smoothing = 1.5f;
+    public float minimumVerticalAngle = -90f;
+    public float maximumVerticalAngle = 90f;
 
-    Vector2 velocity;
-    Vector2 frameVelocity;
-
+    private Vector2 velocity;
+    private Vector2 frameVelocity;
 
     void Reset()
     {
@@ -25,11 +26,13 @@ public class FirstPersonLook : MonoBehaviour
     {
         Vector2 mouseDelta = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
         Vector2 rawFrameVelocity = Vector2.Scale(mouseDelta, Vector2.one * sensitivity);
-        frameVelocity = Vector2.Lerp(frameVelocity, rawFrameVelocity, 1 / smoothing);
+        frameVelocity = Vector2.Lerp(frameVelocity, rawFrameVelocity, 1f / smoothing);
         velocity += frameVelocity;
-        velocity.y = Mathf.Clamp(velocity.y, -90, 90);
 
-        transform.localRotation = Quaternion.AngleAxis(-velocity.y, Vector3.right);
-        character.localRotation = Quaternion.AngleAxis(velocity.x, Vector3.up);
+        // Limit vertical rotation
+        velocity.y = Mathf.Clamp(velocity.y, minimumVerticalAngle, maximumVerticalAngle);
+
+        transform.localRotation = Quaternion.Euler(-velocity.y, 0f, 0f);
+        character.localRotation = Quaternion.Euler(0f, velocity.x, 0f);
     }
 }
