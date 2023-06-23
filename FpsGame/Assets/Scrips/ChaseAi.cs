@@ -1,32 +1,23 @@
 using UnityEngine;
-using UnityEngine.AI;
 
-public class ChaseAi : MonoBehaviour
+public class ChaseAI : MonoBehaviour
 {
-    public Transform player;
-    public Transform zombie;
-    private NavMeshAgent agent;
+    public Transform player; // Reference to the player's transform
+    public float movementSpeed = 3f; // Movement speed of the AI character
 
-    private void Start()
+    private Rigidbody rb;
+
+    private void Awake()
     {
-        agent = GetComponent<NavMeshAgent>();
+        rb = GetComponent<Rigidbody>();
     }
 
     private void Update()
     {
-        if (player != null && zombie != null)
-        {
-            float distanceToPlayer = Vector3.Distance(transform.position, player.position);
-            float distanceToZombie = Vector3.Distance(transform.position, zombie.position);
+        // Calculate the direction from the AI character to the player character
+        Vector3 direction = (player.position - transform.position).normalized;
 
-            if (distanceToPlayer < distanceToZombie)
-            {
-                agent.SetDestination(player.position);
-            }
-            else
-            {
-                agent.SetDestination(zombie.position);
-            }
-        }
+        // Move the AI character towards the player character
+        rb.MovePosition(transform.position + direction * movementSpeed * Time.deltaTime);
     }
 }

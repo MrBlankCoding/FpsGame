@@ -24,11 +24,10 @@ public class HealthAndDamage : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
-    private void OnTriggerEnter(Collider other)
+     public void Damage()
     {
-        if (gameObject.tag == "Bullet")
-        {
-            health -= 50;        
-        }
+
+        health -= 50;        
+      
     }
 }
