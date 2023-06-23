@@ -7,7 +7,7 @@ public class SimpleShoot : MonoBehaviour
 {
     public int maxAmmo = 10;
     private int currentAmmo = -1;
-    public float reloadTime = 1f;
+    public float reloadTime = 2f;
     private bool isReloading = false;
 
 
