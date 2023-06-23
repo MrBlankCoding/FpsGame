@@ -7826,7 +7826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zombie: {fileID: 1553710858}
-  spawnRate: 1
+  spawnRate: 10
 --- !u!4 &1011617389
 Transform:
   m_ObjectHideFlags: 0
@@ -8078,7 +8078,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026568331}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -97.83259, y: 65.452354, z: 179.44708}
+  m_LocalPosition: {x: 23.6, y: 65, z: 214.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8098,7 +8098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bigZombie: {fileID: 1251681796}
-  SpawnRate: 1
+  SpawnRate: 20
 --- !u!1001 &1049452132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10896,7 +10896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   littleZombie: {fileID: 251561955}
-  SpawnRate: 1
+  SpawnRate: 15
 --- !u!4 &1440577982
 Transform:
   m_ObjectHideFlags: 0
@@ -10905,7 +10905,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440577979}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -55.232597, y: 60.349483, z: 42.14708}
+  m_LocalPosition: {x: -251.1, y: 63, z: 251.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
