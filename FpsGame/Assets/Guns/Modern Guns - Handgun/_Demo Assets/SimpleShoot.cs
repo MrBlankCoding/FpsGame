@@ -65,7 +65,7 @@ public class SimpleShoot : MonoBehaviour
 
 
         isReloading = true;
-        Debug.Log("Reloading....")
+        Debug.Log("Reloading....");
 
 
         yield return new WaitForSeconds(reloadTime);
